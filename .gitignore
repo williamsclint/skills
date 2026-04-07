@@ -1,0 +1,17 @@
+# Track only skills and settings — ignore everything else
+*
+
+# Include skills
+!.gitignore
+!skills/
+!skills/**
+
+# Include settings (optional — remove if you want these private)
+!settings.json
+
+# Exclude build artifacts and binaries inside skills
+__pycache__/
+*.pyc
+*.docx
+*.xlsx
+*.pptx
